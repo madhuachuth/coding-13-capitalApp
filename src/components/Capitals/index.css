@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #f8fafc;
+  padding: 60px;
+  border-radius: 18px;
+  max-width: 50%;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto';
+  box-shadow: 15px 15px (#cbd2d9, #323f4b);
+}
+
+.heading {
+  color: #000000;
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.question-container {
+  display: flex;
+}
+
+.select-element {
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.para {
+  color: #1e293b;
+  font-size: 15px;
+}
+
+.country {
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+}
